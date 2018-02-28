@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7proltedd/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/samsung/c7proltedd/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/c7proltedd/proprietary/bin/radish:system/bin/radish \
-    vendor/samsung/c7proltedd/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/c7proltedd/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/c7proltedd/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/samsung/c7proltedd/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
@@ -37,12 +36,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7proltedd/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
     vendor/samsung/c7proltedd/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/c7proltedd/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/c7proltedd/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/c7proltedd/proprietary/lib64/libatparser.so:system/lib64/libatparser.so \
     vendor/samsung/c7proltedd/proprietary/lib64/libfactoryutil.so:system/lib64/libfactoryutil.so \
     vendor/samsung/c7proltedd/proprietary/lib64/libfloatingfeature.so:system/lib64/libfloatingfeature.so \
     vendor/samsung/c7proltedd/proprietary/lib64/libomission_avoidance.so:system/lib64/libomission_avoidance.so \
     vendor/samsung/c7proltedd/proprietary/lib64/libsec-ril-dsds.so:system/lib64/libsec-ril-dsds.so \
     vendor/samsung/c7proltedd/proprietary/lib64/libsec-ril.so:system/lib64/libsec-ril.so \
+    vendor/samsung/c7proltedd/proprietary/lib64/libsecnativefeature.so:system/lib64/libsecnativefeature.so \
+    vendor/samsung/c7proltedd/proprietary/lib64/libsecril-client.so:system/lib64/libsecril-client.so \
     vendor/samsung/c7proltedd/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
     vendor/samsung/c7proltedd/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/samsung/c7proltedd/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
