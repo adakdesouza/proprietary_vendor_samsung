@@ -94,7 +94,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7prolte-common/proprietary/lib/libsecjpegquram.so:system/lib/libsecjpegquram.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
     vendor/samsung/c7prolte-common/proprietary/lib/libsupershot.so:system/lib/libsupershot.so \
-    vendor/samsung/c7prolte-common/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
     vendor/samsung/c7prolte-common/proprietary/lib64/hw/sensorhubs.msm8953.so:system/lib64/hw/sensorhubs.msm8953.so \
     vendor/samsung/c7prolte-common/proprietary/lib64/hw/sensors.msm8953.so:system/lib64/hw/sensors.msm8953.so \
     vendor/samsung/c7prolte-common/proprietary/lib64/libarcsoft_bestphoto_select.so:system/lib64/libarcsoft_bestphoto_select.so \
@@ -555,3 +554,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c7prolte-common/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
     vendor/samsung/c7prolte-common/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/samsung/c7prolte-common/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so
+
+PRODUCT_PACKAGES += \
+    libtfa98xx
